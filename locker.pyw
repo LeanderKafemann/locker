@@ -1,6 +1,9 @@
 #proto_agent
 import pyautogui as py
 import datetime, os
+
+__version__ = "1.0.0"
+
 with open("./secured.txt", "r") as r:
     x = int(r.read())
 locked = False
